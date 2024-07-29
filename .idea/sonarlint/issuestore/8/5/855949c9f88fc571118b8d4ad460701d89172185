@@ -1,0 +1,12 @@
+
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
+V	java:S125"<This block of commented-out lines of code should be removed.(žˆˆøýÿÿÿÿ
+a
+java:S3252?"KUse static access with "org.hibernate.cfg.AvailableSettings" for "DIALECT".(üŒèù
+f
+java:S3252@"PUse static access with "org.hibernate.cfg.AvailableSettings" for "HBM2DDL_AUTO".(ÍÇéÐ
+g
+java:S3252A"LUse static access with "org.hibernate.cfg.AvailableSettings" for "SHOW_SQL".(¬¿ÈÍüÿÿÿÿ
+i
+java:S3252B"NUse static access with "org.hibernate.cfg.AvailableSettings" for "FORMAT_SQL".(¤ž”Ìþÿÿÿÿ

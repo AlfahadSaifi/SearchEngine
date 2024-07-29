@@ -1,0 +1,23 @@
+<Configuration>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
+        </Console>
+        <File name="File" fileName="src/logs/app.log" append="true">
+        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
+    </File>
+</Appenders>
+<Loggers>
+<Root level="DEBUG">
+<AppenderRef ref="Console"/>
+<AppenderRef ref="File"/>
+
+</Root>
+        <!-- <Logger name="ConsoleLogger" level="ERROR">
+        <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="FileLogger" level="INFO">
+        <AppenderRef ref="File"/>
+        </Logger> -->
+</Loggers>
+ </Configuration>
